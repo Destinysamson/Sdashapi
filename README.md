@@ -1,36 +1,59 @@
 <div align="center">
 
-<img src="https://sdashapi.com/assets/img/logo.png" alt="SdashAPI Logo" width="120" />
+<img src="assets/logo.png" alt="SdashAPI Logo" width="120" />
 
 # SdashAPI
 
 ### The #1 Nigerian Past Questions API
 
-**Access 500,000+ past exam questions from JAMB/UTME, WAEC/WASSCE, NECO, and Post-UTME — via a single, blazing-fast REST API.**
+**Access 100,000+ past exam questions from JAMB/UTME, WAEC/WASSCE, NECO, Post-UTME, and University exams — via a single, blazing-fast REST API.**
 
 [![API Status](https://img.shields.io/badge/API-Live-brightgreen?style=for-the-badge)](https://sdashapi.com)
 [![Version](https://img.shields.io/badge/Version-v1.0-blue?style=for-the-badge)](https://sdashapi.com/docs)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Docs](https://img.shields.io/badge/Docs-Read%20Now-orange?style=for-the-badge)](https://sdashapi.com/docs)
+[![JAMB](https://img.shields.io/badge/JAMB-Supported-blue?style=flat-square)](https://sdashapi.com)
+[![WAEC](https://img.shields.io/badge/WAEC-Supported-green?style=flat-square)](https://sdashapi.com)
+[![NECO](https://img.shields.io/badge/NECO-Supported-orange?style=flat-square)](https://sdashapi.com)
+[![Post-UTME](https://img.shields.io/badge/Post--UTME-Supported-purple?style=flat-square)](https://sdashapi.com)
 
 [🚀 Get Started](https://sdashapi.com) · [📖 Documentation](https://sdashapi.com/docs) · [💬 Community](https://sdashapi.com/community) · [🐛 Report a Bug](https://sdashapi.com/community)
 
+<img src="assets/banner.png" alt="SdashAPI Banner" width="100%" />
+
 </div>
+
+> **Keywords:** `JAMB past questions API` `WAEC past questions API` `NECO past questions API` `UTME questions API` `Post-UTME questions API` `Nigerian exam API` `GST past questions` `University past questions Nigeria` `Covenant University past questions` `UNILAG Post-UTME API` `OAU Post-UTME API` `FUTA Post-UTME API` `UNIBEN Post-UTME` `LAUTECH past questions` `Nigeria EdTech API` `past questions JSON API` `free past questions API Nigeria` `exam questions REST API`
 
 ---
 
-## 🇳🇬 What is SdashAPI?
+## 📖 The Story Behind SdashAPI
+
+Building EdTech in Nigeria is not for the faint-hearted. After years of building **[StudentsDash](https://studentsdash.com)** — a platform helping Nigerian students prepare for JAMB, WAEC, NECO, and Post-UTME — founder **Ogbu Chukwuemeka (Emmy)** had quietly assembled one of Nigeria's most comprehensive past questions databases. Thousands of verified questions. Decades of exams. Expert-written solutions.
+
+Then came the pivotal question:
+
+> *"These questions are just sitting here. What if every developer in Nigeria could access them instantly?"*
+
+That thought became **SdashAPI** — Nigeria's most complete, developer-ready past questions API. Clean JSON. No scraping. No PDFs. Just one API call away.
+
+📖 **[Read the full story →](STORY.md)** · 👤 **[About the founder →](https://studentsdash.com/emmy-biography/)**
+
+---
+
 
 **SdashAPI** is the most comprehensive and developer-friendly **Nigerian past questions API** available. Whether you're building an EdTech app, a student revision platform, a quiz engine, or a learning management system — SdashAPI gives you instant, structured access to a growing bank of past exam questions, answers, and full worked solutions.
 
-- ✅ **JAMB / UTME** past questions (2001–present)
-- ✅ **WAEC / WASSCE** past questions
+- ✅ **JAMB / UTME** past questions (1990–present)
+- ✅ **WAEC / WASSCE** past questions (1990–present)
 - ✅ **NECO** past questions
-- ✅ **Post-UTME** past questions
-- ✅ **University** exam questions
+- ✅ **Post-UTME** past questions (multiple universities)
+- ✅ **University** exam questions (GST, GNS, course exams)
+- ✅ **GCE** and **A-Level** questions
 - ✅ Clean JSON responses — no scraping, no HTML parsing
 - ✅ CORS-enabled — works from browser, mobile, or server
 - ✅ Real-time answers + full worked solutions
+- ✅ Covers: UNILAG, OAU, UNIBEN, UNIABUJA, FUTA, LAUTECH, UNIZIK, UNIPORT, ABU, EKSU, FUOYE, EBSU and more
 
 ---
 
@@ -227,7 +250,11 @@ Get the full live list via `GET /api/v1/subjects`.
 
 | Feature | SdashAPI | Others |
 |---------|----------|--------|
-| Nigerian exam coverage (JAMB, WAEC, NECO) | ✅ Full | ⚠️ Partial |
+| JAMB/UTME past questions (1990–present) | ✅ Full | ⚠️ Partial |
+| WAEC/WASSCE past questions | ✅ Full | ⚠️ Partial |
+| NECO past questions | ✅ Full | ❌ Rarely |
+| Post-UTME (multiple universities) | ✅ Full | ❌ No |
+| University GST/GNS exam questions | ✅ Full | ❌ No |
 | Worked solutions / explanations | ✅ Yes | ❌ Rarely |
 | Clean, consistent JSON | ✅ Yes | ⚠️ Varies |
 | CORS enabled (browser-safe) | ✅ Yes | ❌ Often not |
@@ -272,22 +299,35 @@ Get your token by creating a free account at [sdashapi.com](https://sdashapi.com
 
 ## 🗺️ Roadmap
 
-- [x] UTME / JAMB questions (2001–present)
-- [x] WAEC / WASSCE questions
-- [x] NECO questions
-- [x] Post-UTME questions
-- [x] University exam questions
-- [x] Full worked solutions
+- [x] JAMB / UTME questions (1990–present)
+- [x] WAEC / WASSCE questions (1990–present)
+- [x] NECO past questions
+- [x] Post-UTME questions (UNILAG, OAU, UNIBEN, UNIABUJA, FUTA, ABU, LAUTECH, UNIZIK + more)
+- [x] University course & GST/GNS exam questions
+- [x] GCE / O-Level questions
+- [x] Full worked solutions & explanations
 - [x] Image support for diagram questions
 - [x] Community forum
 - [ ] Webhook notifications for new questions
-- [ ] SDKs for JavaScript, Python, PHP, Dart
+- [ ] Official SDKs for JavaScript, Python, PHP, Dart
 - [ ] GraphQL endpoint
 - [ ] Question difficulty ratings
+- [ ] Topic/chapter-level filtering
+- [ ] Mock exam generator endpoint
 
 ---
 
-## 🤝 Contributing
+## 👤 About the Founder
+
+**SdashAPI** was built by **Ogbu Chukwuemeka (Emmy)** — a Nigerian software developer and EdTech entrepreneur who has spent years building technology that bridges the gap between Nigerian students and academic success.
+
+Emmy is the founder of **[StudentsDash](https://studentsdash.com)**, a student platform that powers the question bank behind SdashAPI. His mission: make quality exam preparation accessible to every Nigerian student, and give developers the tools to build the next generation of EdTech apps.
+
+📖 [Read Emmy's full biography →](https://studentsdash.com/emmy-biography/)  
+📖 [Read the full SdashAPI story →](STORY.md)
+
+---
+
 
 We welcome contributions to improve the community, docs, and SDKs!
 
@@ -311,12 +351,22 @@ The **question content** (past exam questions) is the intellectual property of t
 
 ---
 
+---
+
+## 🏷️ Topics
+
+`nigeria` `past-questions` `jamb` `waec` `neco` `utme` `wassce` `post-utme` `university` `gst` `gns` `api` `rest-api` `json` `edtech` `education` `exam` `quiz` `nigerian-students` `javascript` `python` `php` `flutter` `dart` `unilag` `oau` `uniben` `futa` `abu` `lautech` `uniabuja` `unizik` `uniport` `eksu` `fuoye`
+
+---
+
 <div align="center">
 
 **Built with ❤️ for Nigerian students and developers**
 
-⭐ Star this repo if SdashAPI powers your project!
+⭐ **Star this repo** if SdashAPI powers your project!
 
-[sdashapi.com](https://sdashapi.com)
+[![Website](https://img.shields.io/badge/Website-sdashapi.com-blue?style=for-the-badge)](https://sdashapi.com)
+[![Docs](https://img.shields.io/badge/Docs-Read-orange?style=for-the-badge)](https://sdashapi.com/docs)
+[![Community](https://img.shields.io/badge/Community-Join-green?style=for-the-badge)](https://sdashapi.com/community)
 
 </div>
